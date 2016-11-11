@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD19ECE1DD5E00000131F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD19ECD1DD5E00000131F67 /* AppDelegate.swift */; };
+		CAD19ED01DD5E00000131F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD19ECF1DD5E00000131F67 /* ViewController.swift */; };
+		CAD19ED31DD5E00000131F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD19ED11DD5E00000131F67 /* Main.storyboard */; };
+		CAD19ED61DD5E00000131F67 /* SunDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAD19ED41DD5E00000131F67 /* SunDemoApp.xcdatamodeld */; };
+		CAD19ED81DD5E00000131F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD19ED71DD5E00000131F67 /* Assets.xcassets */; };
+		CAD19EDB1DD5E00000131F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD19ED91DD5E00000131F67 /* LaunchScreen.storyboard */; };
+		CAD19EE61DD5E00000131F67 /* SunDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD19EE51DD5E00000131F67 /* SunDemoAppTests.swift */; };
+		CAD19EF11DD5E00000131F67 /* SunDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD19EF01DD5E00000131F67 /* SunDemoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD19EE21DD5E00000131F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD19EC21DD5E00000131F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD19EC91DD5E00000131F67;
+			remoteInfo = SunDemoApp;
+		};
+		CAD19EED1DD5E00000131F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD19EC21DD5E00000131F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD19EC91DD5E00000131F67;
+			remoteInfo = SunDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD19ECA1DD5E00000131F67 /* SunDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD19ECD1DD5E00000131F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD19ECF1DD5E00000131F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD19ED21DD5E00000131F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD19ED51DD5E00000131F67 /* SunDemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SunDemoApp.xcdatamodel; sourceTree = "<group>"; };
+		CAD19ED71DD5E00000131F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD19EDA1DD5E00000131F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD19EDC1DD5E00000131F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD19EE11DD5E00000131F67 /* SunDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD19EE51DD5E00000131F67 /* SunDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunDemoAppTests.swift; sourceTree = "<group>"; };
+		CAD19EE71DD5E00000131F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD19EEC1DD5E00000131F67 /* SunDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD19EF01DD5E00000131F67 /* SunDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunDemoAppUITests.swift; sourceTree = "<group>"; };
+		CAD19EF21DD5E00000131F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD19EC71DD5E00000131F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD19EDE1DD5E00000131F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD19EE91DD5E00000131F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD19EC11DD5E00000131F67 = {
+			isa = PBXGroup;
+			children = (
+				CAD19ECC1DD5E00000131F67 /* SunDemoApp */,
+				CAD19EE41DD5E00000131F67 /* SunDemoAppTests */,
+				CAD19EEF1DD5E00000131F67 /* SunDemoAppUITests */,
+				CAD19ECB1DD5E00000131F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD19ECB1DD5E00000131F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD19ECA1DD5E00000131F67 /* SunDemoApp.app */,
+				CAD19EE11DD5E00000131F67 /* SunDemoAppTests.xctest */,
+				CAD19EEC1DD5E00000131F67 /* SunDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD19ECC1DD5E00000131F67 /* SunDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				CAD19ECD1DD5E00000131F67 /* AppDelegate.swift */,
+				CAD19ECF1DD5E00000131F67 /* ViewController.swift */,
+				CAD19ED11DD5E00000131F67 /* Main.storyboard */,
+				CAD19ED71DD5E00000131F67 /* Assets.xcassets */,
+				CAD19ED91DD5E00000131F67 /* LaunchScreen.storyboard */,
+				CAD19EDC1DD5E00000131F67 /* Info.plist */,
+				CAD19ED41DD5E00000131F67 /* SunDemoApp.xcdatamodeld */,
+			);
+			path = SunDemoApp;
+			sourceTree = "<group>";
+		};
+		CAD19EE41DD5E00000131F67 /* SunDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD19EE51DD5E00000131F67 /* SunDemoAppTests.swift */,
+				CAD19EE71DD5E00000131F67 /* Info.plist */,
+			);
+			path = SunDemoAppTests;
+			sourceTree = "<group>";
+		};
+		CAD19EEF1DD5E00000131F67 /* SunDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD19EF01DD5E00000131F67 /* SunDemoAppUITests.swift */,
+				CAD19EF21DD5E00000131F67 /* Info.plist */,
+			);
+			path = SunDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD19EC91DD5E00000131F67 /* SunDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD19EF51DD5E00000131F67 /* Build configuration list for PBXNativeTarget "SunDemoApp" */;
+			buildPhases = (
+				CAD19EC61DD5E00000131F67 /* Sources */,
+				CAD19EC71DD5E00000131F67 /* Frameworks */,
+				CAD19EC81DD5E00000131F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunDemoApp;
+			productName = SunDemoApp;
+			productReference = CAD19ECA1DD5E00000131F67 /* SunDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD19EE01DD5E00000131F67 /* SunDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD19EF81DD5E00000131F67 /* Build configuration list for PBXNativeTarget "SunDemoAppTests" */;
+			buildPhases = (
+				CAD19EDD1DD5E00000131F67 /* Sources */,
+				CAD19EDE1DD5E00000131F67 /* Frameworks */,
+				CAD19EDF1DD5E00000131F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD19EE31DD5E00000131F67 /* PBXTargetDependency */,
+			);
+			name = SunDemoAppTests;
+			productName = SunDemoAppTests;
+			productReference = CAD19EE11DD5E00000131F67 /* SunDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD19EEB1DD5E00000131F67 /* SunDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD19EFB1DD5E00000131F67 /* Build configuration list for PBXNativeTarget "SunDemoAppUITests" */;
+			buildPhases = (
+				CAD19EE81DD5E00000131F67 /* Sources */,
+				CAD19EE91DD5E00000131F67 /* Frameworks */,
+				CAD19EEA1DD5E00000131F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD19EEE1DD5E00000131F67 /* PBXTargetDependency */,
+			);
+			name = SunDemoAppUITests;
+			productName = SunDemoAppUITests;
+			productReference = CAD19EEC1DD5E00000131F67 /* SunDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD19EC21DD5E00000131F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "松井 修己";
+				TargetAttributes = {
+					CAD19EC91DD5E00000131F67 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CAD19EE01DD5E00000131F67 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD19EC91DD5E00000131F67;
+					};
+					CAD19EEB1DD5E00000131F67 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD19EC91DD5E00000131F67;
+					};
+				};
+			};
+			buildConfigurationList = CAD19EC51DD5E00000131F67 /* Build configuration list for PBXProject "SunDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD19EC11DD5E00000131F67;
+			productRefGroup = CAD19ECB1DD5E00000131F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD19EC91DD5E00000131F67 /* SunDemoApp */,
+				CAD19EE01DD5E00000131F67 /* SunDemoAppTests */,
+				CAD19EEB1DD5E00000131F67 /* SunDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD19EC81DD5E00000131F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD19EDB1DD5E00000131F67 /* LaunchScreen.storyboard in Resources */,
+				CAD19ED81DD5E00000131F67 /* Assets.xcassets in Resources */,
+				CAD19ED31DD5E00000131F67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD19EDF1DD5E00000131F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD19EEA1DD5E00000131F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD19EC61DD5E00000131F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD19ED01DD5E00000131F67 /* ViewController.swift in Sources */,
+				CAD19ECE1DD5E00000131F67 /* AppDelegate.swift in Sources */,
+				CAD19ED61DD5E00000131F67 /* SunDemoApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD19EDD1DD5E00000131F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD19EE61DD5E00000131F67 /* SunDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD19EE81DD5E00000131F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD19EF11DD5E00000131F67 /* SunDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD19EE31DD5E00000131F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD19EC91DD5E00000131F67 /* SunDemoApp */;
+			targetProxy = CAD19EE21DD5E00000131F67 /* PBXContainerItemProxy */;
+		};
+		CAD19EEE1DD5E00000131F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD19EC91DD5E00000131F67 /* SunDemoApp */;
+			targetProxy = CAD19EED1DD5E00000131F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD19ED11DD5E00000131F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD19ED21DD5E00000131F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD19ED91DD5E00000131F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD19EDA1DD5E00000131F67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD19EF31DD5E00000131F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD19EF41DD5E00000131F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD19EF61DD5E00000131F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.sun-e.SunDemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAD19EF71DD5E00000131F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.sun-e.SunDemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CAD19EF91DD5E00000131F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.sun-e.SunDemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunDemoApp.app/SunDemoApp";
+			};
+			name = Debug;
+		};
+		CAD19EFA1DD5E00000131F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.sun-e.SunDemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunDemoApp.app/SunDemoApp";
+			};
+			name = Release;
+		};
+		CAD19EFC1DD5E00000131F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SunDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.sun-e.SunDemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SunDemoApp;
+			};
+			name = Debug;
+		};
+		CAD19EFD1DD5E00000131F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SunDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.sun-e.SunDemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SunDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD19EC51DD5E00000131F67 /* Build configuration list for PBXProject "SunDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD19EF31DD5E00000131F67 /* Debug */,
+				CAD19EF41DD5E00000131F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD19EF51DD5E00000131F67 /* Build configuration list for PBXNativeTarget "SunDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD19EF61DD5E00000131F67 /* Debug */,
+				CAD19EF71DD5E00000131F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD19EF81DD5E00000131F67 /* Build configuration list for PBXNativeTarget "SunDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD19EF91DD5E00000131F67 /* Debug */,
+				CAD19EFA1DD5E00000131F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD19EFB1DD5E00000131F67 /* Build configuration list for PBXNativeTarget "SunDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD19EFC1DD5E00000131F67 /* Debug */,
+				CAD19EFD1DD5E00000131F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAD19ED41DD5E00000131F67 /* SunDemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAD19ED51DD5E00000131F67 /* SunDemoApp.xcdatamodel */,
+			);
+			currentVersion = CAD19ED51DD5E00000131F67 /* SunDemoApp.xcdatamodel */;
+			path = SunDemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CAD19EC21DD5E00000131F67 /* Project object */;
+}
