@@ -29,16 +29,33 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dv-n1-iBi">
-                                <rect key="frame" x="86" y="122" width="202" height="42"/>
+                                <rect key="frame" x="86" y="123" width="202" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Location information test"/>
+                                <connections>
+                                    <action selector="LITestButton_TouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Ldm-17-ySV"/>
+                                    <action selector="LITestButton_TouchOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fUn-Z2-KOB"/>
+                                    <action selector="LITestButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jU-9I-Nh3"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMs-1R-bvq">
+                                <rect key="frame" x="46" y="182" width="282" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="AppTitleLabel" destination="git-nI-kcr" id="eb7-M5-26o"/>
+                        <outlet property="DebugLabel" destination="MMs-1R-bvq" id="w7l-Jd-jnm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>

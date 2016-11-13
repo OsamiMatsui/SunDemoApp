@@ -20,6 +20,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var AppTitleLabel: UILabel!
+    
+    @IBOutlet weak var LITestButton: UIButton!
 
+    @IBOutlet weak var DebugLabel: UILabel!
+    
+    @IBAction func LITestButton_TouchDown(_ sender: Any) {
+        DebugLabel.text = "Touche down"
+    }
+    @IBAction func LITestButton_TouchUpInside(_ sender: Any) {
+        DebugLabel.text = "Touche up inside"
+    }
+    @IBAction func LITestButton_TouchOutside(_ sender: Any) {
+        DebugLabel.text = "Touche up outside"
+    }
 }
 
