@@ -26,14 +26,19 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var DebugLabel: UILabel!
     
+	@IBOutlet weak var DebugTextView: UITextView!
+	
     @IBAction func LITestButton_TouchDown(_ sender: Any) {
         DebugLabel.text = "Touche down"
+		DebugTextView.text.append("Touche down\n");
     }
     @IBAction func LITestButton_TouchUpInside(_ sender: Any) {
         DebugLabel.text = "Touche up inside"
+		DebugTextView.text.append("Touche up inside\n");
     }
     @IBAction func LITestButton_TouchOutside(_ sender: Any) {
         DebugLabel.text = "Touche up outside"
+		DebugTextView.text.append("Touche up outside\n");
     }
 }
 
